@@ -37,7 +37,7 @@ def ping_to_csv(input_file: str) -> None:
         f.write(output)
 
 #%%
-input_file = "2024-09-01-0.csv"
+input_file = "2024-09-01-1.csv"
 
 remove_header_and_footer(input_file)
 ping_to_csv(input_file)
